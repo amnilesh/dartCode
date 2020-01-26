@@ -1,0 +1,190 @@
+// void main(){
+
+//  dynamic score = highScore(8);
+
+//   print("this is my $score");
+
+//   var greeting = msg();
+
+//   print("Greeting, $greeting");
+
+// // for(i=0;i<=5;i++){
+
+//   //print("this will print ${i}");}
+// }
+
+// int highScore(var a){
+
+//   return a;
+// }
+
+//  String msg(){
+
+//    var a = "hello world";
+//    return a;
+
+// }
+
+
+//  TODO: here 
+
+   
+   
+   
+// void main() {
+//   print(printHello());
+// }
+
+// dynamic printHello() {
+//   dynamic msg = "hello";
+//   msg = 1;
+
+//   return msg;
+// }
+
+//--------------------------------------------------------------------------------
+
+// TODO : here i have created class nad object
+
+// void main(){
+  
+  
+//   var sisterOne = new Sister();
+  
+//     sisterOne.name = "pooja";
+//     sisterOne.height  = 5;
+//     sisterOne.degree = "\\";
+//     sisterOne.schoolName = "CPS";
+  
+//      sisterOne.sisInfo();
+  
+  
+//   var sisterTwo = new Sister();
+  
+//     sisterTwo.name = "Rinku";
+//   sisterTwo.sisInfo();
+  
+// }
+
+
+// class Sister{
+  
+//   var name;
+//   var height;
+//   var schoolName;
+//   var degree;
+  
+  
+//   sisInfo(){
+    
+//     print("Hey my name is $name and height is $height and school name is $schoolName and i have $degree degreee");
+    
+    
+//   }
+// }
+
+
+
+// Here iwill create simple class and,  object with constuctor
+
+// void main(){
+  
+//   var sisterOne = new Sister("pooja", "B.com", "5\'11", "cps");
+  
+//   sisterOne.sisInfo();
+  
+  
+//   var sisterTwo = new Sister("Rinku", "B.sc", 6, "SPIC");
+  
+//   sisterTwo.sisInfo();
+  
+  
+// }
+
+
+// class Sister{
+  
+//   var name;
+//   var height;
+//   var school;
+//   var degree;
+  
+//   Sister(this.name, this.degree, this.height,this.school);
+  
+//   sisInfo(){
+    
+//     print("I am ${name} having degree of ${degree }and height is ${height }and school name is ${school}");
+//   }
+  
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+KBfa0l2dh%hUzTNW
+
+
+
+
+
+
+
+
+
