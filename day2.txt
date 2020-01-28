@@ -435,6 +435,102 @@ String cityName(String first, {String sec, String third}){
 */
 
 
+// void main(List<String> args) {
+//    int a = 122;
+//    int b = 2 ;
+
+// // this is try catch block
+//   try {
+//     int c=  a~/b;
+//     print(c);
+//   } catch (e, s) {
+//     print("This is $e");
+//     print('stacktrace $s');
+//   }
+
+// // this is ON clouse
+//     try {
+//       int c=  a~/b;
+//   print(c);
+//     } on IntegerDivisionByZeroException {
+//       print('This is exception can not divide by 0');
+//     }
+
+// // with finally
+//   try {
+//     int c=  a~/b;
+//   print(c);
+//   } catch (e) {
+//     print(e);
+//   }finally{
+//     print("this is finally block");
+//   }
+
+
+
+
+
+
+
+// }
+
+// creating custom class for exception
+
+// void main(List<String> args) {
+
+//   try {
+//     depositAmount(-2000);
+//   } catch (e) {
+//     print();
+//   }
+  
+// }
+// class depositException implements Exception{
+//   void throwException(){
+//     print('your can not enter amount of less than zero');
+//   }
+// }
+
+
+// void depositAmount(int amount){
+//   if (amount <0) {
+//     throw new depositException();
+    
+//   }
+//   else{
+// print(amount);}
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
