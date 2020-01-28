@@ -299,6 +299,153 @@ var marks = 5;
 
 
 
+/* break keyword along with labels
+void main() {
+  
+  outerloop: for (var i = 0; i < 10; i++) {
+
+    for (var j = 1; j < 10; j++) {
+      // something
+      print('$i $j');
+
+      if (i == 1 && j == 1 ) {
+       break outerloop;
+        
+      }
+    } 
+  }
+}
+*/
+// continue keyword along with labels
+
+  /* remove comment (try)
+void main(List<String> args) {
+    
+   outer: for (var i = 1; i <= 3; i++) {
+
+      for (var j = 1; j <= 3; j++) {
+            // if (i == 2 && j==1) 
+            // {
+            //   continue outer ;
+            // }
+            // if (i==3 && j==2) {
+            //   continue;
+              
+            // }
+            
+        print('$i $j');
+        
+                                   }
+
+                                       }
+                              }
+
+*/
+
+
+// void main(List<String> args) {
+//   var myCar =  car();
+//  var printHeightValue = myCar.add();
+//  print(printHeightValue);
+
+// }
+
+// class car{
+//   int length = 10;
+//   int width = 10;
+//   int height;
+//   int add(){
+//     height = length + width;
+//     return height;
+
+//   }
+ 
+//   }
+
+/* funtion parameter || this is also called required parameter  
+
+void main(List<String> args) {
+
+  var myCar = car();
+
+  myCar.showCarInfo(15, 'BMW');
+
+  var myArea = Circle();
+    print(myArea.areaOfCircle(2));
+
+}
+
+class car{
+  int height;
+  String name;
+
+  void showCarInfo(height, name){
+
+      print('$height and $name');
+
+      
+  }
+
+}
+
+class Circle{
+int r;
+
+num area;
+static const pi = 3.14;
+
+
+num areaOfCircle(r) =>   pi*r; 
+
+}
+*/
+
+/* this is optional positional parameter that is used in funtion
+
+void main(List<String> args) {
+  printCities("Lucknow");
+
+
+}
+
+String printCities(String name1, [String name2, String name3]) {
+
+ print('name 1 is $name1 \nname2 is $name2 \nname3 is $name3');
+
+
+}
+*/
+
+/* Named parameter 
+          //        SYNTAX -----------      parameter:value
+            //      sequence is necessory in names parameter and this is advantage
+
+void main(List<String> args) {
+    //cityName("azamgarh", sec:"Lucknow",third:"mau");
+    cityName("azamgarh", third:"mau", sec:"Lucknow");
+  
+}
+
+String cityName(String first, {String sec, String third}){
+
+  print('$first and $sec and $third');
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
