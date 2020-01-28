@@ -1,0 +1,311 @@
+
+//traditional odd even program
+
+// void main(){
+  
+//   var value = 1;
+  
+//   if(value%2 == 0){
+    
+//     print("value is even");
+    
+    
+//   }
+//   else
+//   {
+//     print("value is odd");
+//   }
+// }
+
+
+//list with fixed list type
+
+
+// void main(){
+  
+//   var heroslist = new List(5);
+  
+//   heroslist[0] = "hulk";
+//   heroslist[1] = "Iron Man";
+  
+//  for(int i=0;i<2;i++){
+//    print(heroslist[i]);
+//  }
+  
+  
+  
+// }
+
+
+// This programs checks that if string is empty or not
+
+// void main(){
+// String str = 'abcvfdfdggdg'; 
+// if(str.isEmpty) { 
+//    print('String  empty'); 
+// } else { 
+//    print('String is not empty'); 
+// } 
+
+// }
+
+
+
+
+
+// void main(){
+  
+//   int userInput = 7;
+  
+//   Switch(userInput){
+    
+//     case one: 
+      
+//             print("Case is 1");
+    
+    
+    
+    
+    
+    
+    
+//   }
+  
+  
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//simple object and class
+
+// void main() {
+
+//   var firstSis = new sisterOne();
+//     firstSis.height = 10;
+
+//     firstSis.sisInfo();
+  
+// }
+// class sisterOne{
+
+//   var height ;
+
+//   sisInfo(){
+//     print(height);
+//   }
+
+// }
+
+
+
+// practicing final and const keyword
+// void main(List<String> args) {
+
+
+   //what is final and const
+
+   //   set once , const type variable initialised during compilation, wheather it is used or not
+//  const pi = 3.14;
+
+   // but final  set once and initialised when used, if not used it would not memory 
+
+//   final name = 'nilesh';
+
+//   print(name);
+
+//   var isLarge = new Sister();
+
+//   isLarge.resultInfo();
+
+
+// }
+
+// class Sister{
+//       static const poojaIslarge = "yes pooja is big" ;
+
+//       final rinkuIsSmall = "yes rinku is small";
+
+//       resultInfo() => print(poojaIslarge);
+ 
+//   //  resultInfo()  {print(poojaIslarge);}  //this.code exactly same as above but with shorthend tech;
+      
+      
+
+// }
+
+
+
+/*  void main(List<String> args) {
+  
+  // conditional Expressions type 1
+// condition ? exp 1 : exp2 ;
+
+  var firstDigit = 100;
+  var secDigit = 20;
+
+  /*  if (firstDigit > secDigit) {
+      print("first digit is large");
+      
+    }
+    else{
+      print("secDigit is large");
+    } 
+    */
+
+  /*This code works fine 
+    but is one more smart way of doing same thing*/
+    // This is How thing done ----  condition ? exp1 : exp2;
+
+  firstDigit > secDigit ? print('$firstDigit is large') : print('$secDigit is large');  
+
+}
+ */
+
+/* Expression type two
+    exp1 ?? exp2
+    if exp1 is  null it checks exp2 and eturn its value
+
+     if exp1 is not null print its value
+*/
+// ------------------------------------------------------
+/*         void main(List<String> args) {
+  
+           String name = null;
+
+            print(name ?? "no name");
+}
+
+*/
+
+
+/* switch case code || switch case is like if-else-if ladder
+
+void main(List<String> args) {
+  
+var marks = 5;
+      // as paremeter in switch only int or String is allowed;
+    switch(marks){
+      case 1: 
+      print("your marks is $marks");
+      break;
+
+      case 2:
+      print("your marks is $marks");
+      break;
+      
+      default:
+      print("your are out of rrade ");
+    }
+
+}
+*/
+
+
+/* For loop in Dart */
+// void main(List<String> args) {
+  
+//     for (var i = 0; i <= 5; i++) {
+//       print("hello");
+//     }}
+
+  // while loop
+  //   void main(List<String> args) {
+  //     var i=0;
+  //  while (i < 10) {
+  //    print("hello");
+  //    i++;
+  //  }
+  //   }
+
+
+/* This is do- while loop  */
+    // void main() {
+
+
+    //       int i=10;
+    //   do {
+    //     print(i);
+    //     i++;
+        
+    //   } while (i <5);
+      
+      
+
+    // }
+
+
+    //for loop simple odd even program
+//  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
