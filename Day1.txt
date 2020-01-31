@@ -1,70 +1,76 @@
-// void main(){
-
-//  dynamic score = highScore(8);
-
-//   print("this is my $score");
-
-//   var greeting = msg();
-
-//   print("Greeting, $greeting");
-
-// // for(i=0;i<=5;i++){
-
-//   //print("this will print ${i}");}
-// }
-
-// int highScore(var a){
-
-//   return a;
-// }
-
-//  String msg(){
-
-//    var a = "hello world";
-//    return a;
-
-// }
+/*	onjective : 1. to print high score, print greeting msg
 
 
-//  TODO: here 
+ void main(){
 
+  dynamic score = highScore(8);
+
+  print("this is my $score");
+
+  var greeting = msg();
+
+  print("Greeting, $greeting");
+
+ for(i=0;i<=5;i++){
+
+print("this will print ${i}");}
+ }
+
+ int highScore(var a){
+
+  return a;
+ }
+
+  String msg(){
+
+   var a = "hello world";
+    return a;
+
+ }
+
+*/
+
+
+ TODO: here 
+
+/*------------------------------------------------------------------------   
+   A simple Hello world program, testing dynamic data type
    
-   
-   
-// void main() {
-//   print(printHello());
-// }
+void main() {
+   print(printHello());
+ }
 
-// dynamic printHello() {
-//   dynamic msg = "hello";
-//   msg = 1;
+ dynamic printHello() {
+ dynamic msg = "hello";
+   msg = 1;
 
-//   return msg;
-// }
+   return msg;
+ } 
+*/
 
 //--------------------------------------------------------------------------------
 
-// TODO : here i have created class nad object
+/* TODO : here i have created class nad object
 
-// void main(){
+ void main(){
   
   
-//   var sisterOne = new Sister();
+   var sisterOne = new Sister();
   
-//     sisterOne.name = "pooja";
-//     sisterOne.height  = 5;
-//     sisterOne.degree = "\\";
-//     sisterOne.schoolName = "CPS";
+     sisterOne.name = "pooja";
+     sisterOne.height  = 5;
+     sisterOne.degree = "\\";
+     sisterOne.schoolName = "CPS";
   
-//      sisterOne.sisInfo();
+      sisterOne.sisInfo();
   
   
-//   var sisterTwo = new Sister();
+   var sisterTwo = new Sister();
   
-//     sisterTwo.name = "Rinku";
-//   sisterTwo.sisInfo();
+     sisterTwo.name = "Rinku";
+   sisterTwo.sisInfo();
   
-// }
+ }
 
 
 // class Sister{
